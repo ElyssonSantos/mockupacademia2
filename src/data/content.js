@@ -9,7 +9,7 @@ export const gymData = {
     { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1600&auto=format&fit=crop" },
     { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop" },
     { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1600&auto=format&fit=crop" },
-    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "https://images.unsplash.com/photo-1564415300398-68775441111a?q=80&w=1600&auto=format&fit=crop" },
+    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "https://oxigenioacademia.com.br/wp-content/uploads/2021/06/post_thumbnail-f588aa221f23094a4605d7d02525d836-768x512.jpeg" },
     { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop" },
     { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1600&auto=format&fit=crop" },
   ],
