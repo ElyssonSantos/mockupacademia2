@@ -146,7 +146,6 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Sua saúde é o seu maior patrimônio. Cuidar do corpo hoje é investir em mais qualidade de vida amanhã.",
       images: [
-        "/src/assets/conteudo_saude.jpg",
         "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
