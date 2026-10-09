@@ -1,3 +1,6 @@
+import jiujitsuImg from '../assets/jiujitsu.jpg';
+import conteudoSaudeImg from '../assets/conteudo_saude.jpg';
+
 export const gymData = {
   numbers: [
     { label: "ALUNOS", value: "+2.000", icon: "users" },
@@ -9,7 +12,7 @@ export const gymData = {
     { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1600&auto=format&fit=crop" },
     { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop" },
     { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1600&auto=format&fit=crop" },
-    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "/src/assets/jiujitsu.jpg" },
+    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: jiujitsuImg },
     { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop" },
     { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1600&auto=format&fit=crop" },
   ],
@@ -146,6 +149,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Sua saúde é o seu maior patrimônio. Cuidar do corpo hoje é investir em mais qualidade de vida amanhã.",
       images: [
+        conteudoSaudeImg,
         "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
