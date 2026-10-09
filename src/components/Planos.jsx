@@ -42,7 +42,7 @@ const Planos = () => {
                 <span className="plano-after-promo">{plano.afterPromo}</span>
               </div>
               
-              <a href={`https://wa.me/5511999998888?text=Olá, quero treinar na Apex Fitness! Gostaria do ${plano.name}`} target="_blank" rel="noopener noreferrer" className="btn btn-hover-fill plano-btn">
+              <a href={`https://wa.me/5511999998888?text=Olá, quero treinar na Sua Academia! Gostaria do ${plano.name}`} target="_blank" rel="noopener noreferrer" className="btn btn-hover-fill plano-btn">
                 <span>{plano.buttonText}</span>
               </a>
 

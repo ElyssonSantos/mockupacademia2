@@ -89,7 +89,7 @@ const Conteudos = () => {
         <div className="section-header">
           <AnimatedSectionTitle className="section-title">
             Conteúdos <br/>
-            <span className="text-primary">Apex Fitness.</span>
+            <span className="text-primary">Sua Academia.</span>
           </AnimatedSectionTitle>
           <p className="section-subtitle">
             Informação para cuidar melhor de você.

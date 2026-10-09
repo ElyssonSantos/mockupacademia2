@@ -21,7 +21,7 @@ const Modalidades = () => {
             </AnimatedSectionTitle>
           </div>
           <p className="section-subtitle" style={{ marginBottom: 0, maxWidth: '500px' }}>
-            Na Apex Fitness, você encontra a atividade ideal para o seu objetivo. 
+            Na Sua Academia, você encontra a atividade ideal para o seu objetivo. 
             Escolha como quer treinar e conte com nosso suporte.
           </p>
         </div>

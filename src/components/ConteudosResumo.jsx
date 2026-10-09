@@ -89,7 +89,7 @@ const ConteudosResumo = () => {
           <div>
             <AnimatedSectionTitle className="section-title" style={{ marginBottom: 0 }}>
               Conteúdos <br/>
-              <span className="text-primary">Apex Fitness.</span>
+              <span className="text-primary">Sua Academia.</span>
             </AnimatedSectionTitle>
           </div>
           <Link to="/conteudos" className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>

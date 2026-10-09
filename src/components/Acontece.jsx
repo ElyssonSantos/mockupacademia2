@@ -8,7 +8,7 @@ const Acontece = () => {
       <div className="container">
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
           <Bell className="text-primary" size={28} />
-          <h2 style={{ fontSize: '1.5rem', margin: 0 }}>Acontece na Apex Fitness</h2>
+          <h2 style={{ fontSize: '1.5rem', margin: 0 }}>Acontece na Sua Academia</h2>
         </div>
 
         <div className="acontece-grid">

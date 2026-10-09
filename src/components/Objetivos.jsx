@@ -15,7 +15,7 @@ const Objetivos = () => {
             <span className="text-primary">objetivo?</span>
           </AnimatedSectionTitle>
           <p className="section-subtitle">
-            Escolha o que você busca. A Apex Fitness ajuda você a encontrar o caminho.
+            Escolha o que você busca. A Sua Academia ajuda você a encontrar o caminho.
           </p>
         </div>
 

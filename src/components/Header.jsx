@@ -51,9 +51,9 @@ const Header = () => {
         <div className="container header-container">
           <a href="/" className="logo-container">
             <div className="logo-icon">
-              <img src={logoImg} alt="Apex Fitness Logo" className="logo-img" />
+              <img src={logoImg} alt="Sua Academia Logo" className="logo-img" />
             </div>
-            <span>Apex Fitness</span>
+            <span>Sua Academia</span>
           </a>
           <nav className="nav-links">
             {navLinks.map((link) => (

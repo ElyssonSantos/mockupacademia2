@@ -11,9 +11,9 @@ const Footer = () => {
           <div>
             <a href="/" className="logo-container" style={{ marginBottom: '1.5rem', textDecoration: 'none', color: 'var(--text-main)', display: 'inline-flex', alignItems: 'center' }}>
               <div className="logo-icon" style={{ width: 36, height: 36 }}>
-                <img src={logoImg} alt="Apex Fitness Logo" className="logo-img" />
+                <img src={logoImg} alt="Sua Academia Logo" className="logo-img" />
               </div>
-              <span style={{ fontSize: '1.25rem' }}>Apex Fitness</span>
+              <span style={{ fontSize: '1.25rem' }}>Sua Academia</span>
             </a>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginBottom: '1.5rem', maxWidth: '300px' }}>
               Mais que uma academia, um estilo de vida. Venha alcançar seus resultados conosco.
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Academia Apex Fitness. Todos os direitos reservados. <br /> CNPJ: 12.345.678/0001-99</p>
+          <p>&copy; {new Date().getFullYear()} Sua Academia. Todos os direitos reservados. <br /> CNPJ: 12.345.678/0001-99</p>
           <p>
             Desenvolvido por{' '}
             <a

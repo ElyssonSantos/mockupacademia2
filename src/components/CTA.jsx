@@ -11,7 +11,7 @@ const CTA = () => {
           começa aqui.
         </AnimatedSectionTitle>
         <p className="cta-subtitle text-black" style={{ opacity: 0.8 }}>
-          Venha conhecer a Apex Fitness e descubra uma nova forma de treinar.
+          Venha conhecer a Sua Academia e descubra uma nova forma de treinar.
         </p>
         <a href="#planos" className="btn btn-hover-fill cta-btn">
           <span>Quero Treinar</span> <ArrowRight size={22} />

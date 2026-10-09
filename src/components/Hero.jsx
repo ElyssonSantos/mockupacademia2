@@ -1,29 +1,17 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import AnimatedSectionTitle from './AnimatedSectionTitle';
+import heroBannerImg from '../assets/hero_banner.jpg';
 
 const Hero = () => {
-  const videoBackground = "/src/conteudos/hero.mp4";
-
   return (
     <section id="inicio" className="hero">
-      {videoBackground ? (
-        <video
-          src={videoBackground}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="hero-bg"
-          style={{ objectFit: 'cover' }}
-        />
-      ) : (
-        <img
-          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
-          alt="Academia Apex Fitness"
-          className="hero-bg"
-        />
-      )}
+      <img
+        src={heroBannerImg}
+        alt="Sua Academia"
+        className="hero-bg"
+        style={{ objectFit: 'cover' }}
+      />
       <div className="hero-overlay"></div>
 
       <div className="container hero-container-inner">
@@ -41,7 +29,7 @@ const Hero = () => {
 
           <div className="hero-actions animate-fade-in">
             <a href="#planos" className="btn btn-hover-fill cta-btn">
-              <span>Conheça a Apex Fitness</span> <ArrowRight size={22} />
+              <span>Conheça a Sua Academia</span> <ArrowRight size={22} />
             </a>
           </div>
         </div>

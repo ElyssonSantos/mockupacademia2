@@ -10,7 +10,7 @@ const VivaPersonalFit = () => {
           <span className="hero-tag">Comunidade</span>
           <AnimatedSectionTitle className="section-title">
             Viva a <br/>
-            <span className="text-primary">Apex Fitness.</span>
+            <span className="text-primary">Sua Academia.</span>
           </AnimatedSectionTitle>
           <p className="section-subtitle">
             Treinos, aulas, pessoas e momentos que fazem parte da nossa rotina.
@@ -20,7 +20,7 @@ const VivaPersonalFit = () => {
         <div className="viva-gallery">
           {gymData.vivaImages.map((img, idx) => (
             <div key={idx} className={`viva-img-wrapper viva-img-${idx}`}>
-              <img src={img} alt={`Rotina Apex Fitness ${idx + 1}`} loading="lazy" />
+              <img src={img} alt={`Rotina Sua Academia ${idx + 1}`} loading="lazy" />
             </div>
           ))}
         </div>

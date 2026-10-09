@@ -6,12 +6,12 @@ export const gymData = {
     { label: "DE FUNCIONAMENTO", value: "24H", icon: "clock" },
   ],
   modalities: [
-    { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: "/src/conteudos/musculacao.mp4" },
-    { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: "/src/conteudos/funcional.mp4" },
-    { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: "/src/conteudos/boxe.mp4" },
-    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "/src/conteudos/jiujitsu.mp4" },
-    { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: "/src/conteudos/pilates.mp4" },
-    { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: "/src/conteudos/ritmos.mp4" },
+    { id: 1, name: "MUSCULAÇÃO", desc: "Força, condicionamento e evolução.", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1600&auto=format&fit=crop" },
+    { id: 2, name: "FUNCIONAL", desc: "Agilidade, mobilidade e condicionamento.", image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop" },
+    { id: 3, name: "MUAY THAI", desc: "Técnica, condicionamento e disciplina.", image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1600&auto=format&fit=crop" },
+    { id: 4, name: "JIU-JITSU", desc: "Técnica, defesa pessoal e superação.", image: "https://images.unsplash.com/photo-1564415300398-68775441111a?q=80&w=1600&auto=format&fit=crop" },
+    { id: 5, name: "PILATES", desc: "Controle, mobilidade e consciência corporal.", image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop" },
+    { id: 6, name: "RITMOS", desc: "Energia, música e muita dança.", image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1600&auto=format&fit=crop" },
   ],
   objectives: [
     {
@@ -49,7 +49,7 @@ export const gymData = {
     {
       id: 1,
       name: "Plano Completo",
-      description: "Treine em qualquer unidade da Apex Fitness e tenha acesso a todas as nossas modalidades.",
+      description: "Treine em qualquer unidade da Sua Academia e tenha acesso a todas as nossas modalidades.",
       fidelity: "12 meses de fidelidade",
       oldPrice: "159,90",
       promoPrice: "0,00",
@@ -146,7 +146,8 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Sua saúde é o seu maior patrimônio. Cuidar do corpo hoje é investir em mais qualidade de vida amanhã.",
       images: [
-        "/src/conteudos/patrimonio.jpg", "/src/conteudos/patrimonio2.jpg"
+        "/src/assets/conteudo_saude.jpg",
+        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
       featured: true,
@@ -159,7 +160,8 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Entenda a importância da proteína para seus músculos e como calcular a quantidade ideal diária.",
       images: [
-        "/src/conteudos/investimento.jpg", "/src/conteudos/investimento2.jpg"
+        "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
       featured: false,
@@ -172,7 +174,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Devido ao feriado, nossas unidades funcionarão em horários diferenciados.",
       images: [
-        "/src/conteudos/voceecapaz.jpg"
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
       featured: false,
@@ -185,7 +187,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "A semana foi intensa, mas você não desistiu e venceu. Cada suor derramado hoje é um passo a mais em direção ao corpo e à saúde que você deseja.",
       images: [
-        "/src/conteudos/treinofeito.jpg"
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
       featured: false,
@@ -198,7 +200,7 @@ export const gymData = {
       date: "06 Out 2026",
       description: "Não deixe a preguiça vencer. Continue com seus treinos e alcance seus objetivos!",
       images: [
-        "/src/conteudos/constancia.mp4"
+        "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=1600&auto=format&fit=crop"
       ],
       video: null,
       featured: false,

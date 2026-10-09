@@ -28,7 +28,7 @@ const Sobre = () => {
         <div className="sobre-image-wrapper animate-fade-in">
           <img
             src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop"
-            alt="Interior da Academia Apex Fitness"
+            alt="Interior da Sua Academia"
             className="sobre-image"
           />
         </div>
@@ -39,7 +39,7 @@ const Sobre = () => {
           </AnimatedSectionTitle>
 
           <p className="section-subtitle" style={{ marginBottom: '2.5rem' }}>
-            A Apex Fitness reúne estrutura, profissionais qualificados e diferentes formas de cuidar do corpo, da saúde e da performance.
+            A Sua Academia reúne estrutura, profissionais qualificados e diferentes formas de cuidar do corpo, da saúde e da performance.
           </p>
 
           <div className="sobre-differentiators">
