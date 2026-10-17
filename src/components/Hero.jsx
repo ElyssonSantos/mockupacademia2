@@ -10,7 +10,7 @@ const Hero = () => {
         src={heroBannerImg}
         alt="Sua Academia"
         className="hero-bg"
-        style={{ objectFit: 'cover' }}
+        style={{ objectFit: 'cover', objectPosition: 'center' }}
       />
       <div className="hero-overlay"></div>
 
